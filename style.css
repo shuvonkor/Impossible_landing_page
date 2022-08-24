@@ -224,3 +224,40 @@ ul li a {
     width: 50px;
     margin: 0;
 }
+/* Our Business Approach */
+.our-buiness-approach{
+
+}
+.our-buiness-approach h2{
+    text-align: center;
+    margin: 20px auto;
+    padding-top: 30px;
+}
+.our-buiness-approach-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.our-buiness-approach-container div{
+    width: 25%;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Our buiness solutions */
+.our-business-solutions-container h2{
+    text-align: center;
+    margin: 20px auto;
+    padding-top: 50px;    
+}
+.buiness-solutions-iteam{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}
