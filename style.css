@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+}
 
 body {
     font-family: cursive;
@@ -86,6 +89,11 @@ ul li a {
     background-color: coral;
     border: none;
     padding: 10px 25px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    transform: scale(1.2);
+    transition: .5s;
 }
 
 .banner-text-button {
@@ -257,7 +265,134 @@ ul li a {
 }
 .buiness-solutions-iteam{
     display: flex;
+    justify-content: space-around;
     width: 70%;
     margin: auto;
     align-items: center;
+}
+.buiness-solutions-text{
+    width: 35%;
+    text-align: left;
+}
+.buiness-solutions-text h4, p{
+    margin: 20px 0;
+}
+.buiness-solutions-text .btn{
+    margin: 0;
+}
+
+/* Our Pricing table */
+.price-table-container{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(230, 228, 228);
+    margin-top: 25px;
+}
+.price-table-container h2{
+    font-size: 32px;
+    padding: 50px 0;
+    text-align: center;
+}
+.price-table-row{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 30px;
+}
+.price-table-col{
+    background-color: #fff;
+    color: gray;
+    text-align: center;
+}
+.price-table-col p{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(206, 160, 22);
+    color: #fff;
+    padding: 15px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.price-table-col li{
+    border-bottom: 2px solid tomato;
+    padding: 20px;
+}
+.price-table-col h3{
+    border-bottom: 2px solid tomato;
+    padding: 20px;
+}
+.price-table-btn{
+    margin: 30px;
+    color: white;
+    background-color: rgb(206, 160, 22);
+    border: none;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+.price-table-btn:hover{
+    font-size: 15px;
+}
+.price-table-col .custom-color {
+    background-color: tomato;
+}
+/* pricing table hover effect */
+.price-table-row:hover .price-table-col{
+    filter: blur(2px);
+}
+.price-table-row .price-table-col:hover{
+    filter: blur(0px);
+    transform: scale(1.1);
+    transition: 1s;
+}
+/* Our latest news */
+.our-latest-news-container{
+    width: 100%;
+    min-height: auto;
+    margin-top: 25px;
+    
+}
+.our-latest-news-container h2{
+    text-align: center;
+    margin: 25px 0;
+    padding-top: 35px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.our-latest-newses{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 40px;
+}
+/* our success stories */
+.our-success-stories-container{
+    width: 100%;
+    min-height: auto;
+    margin-top: 25px;
+}
+
+.our-success-stories-container h2{
+    text-align: center;
+    margin: 25px 0;
+    padding-top: 35px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.our-success-stories{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 40px;
+}
+.success-content{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    
 }
