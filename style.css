@@ -396,3 +396,52 @@ ul li a {
     grid-gap: 10px;
     
 }
+/* fotter section */
+footer h2{
+    text-align: center;
+    margin: 25px 0;
+    padding-top: 35px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.footer-container{
+  display: flex; 
+  justify-content: space-evenly;
+  
+}
+.footer-address-social-icon{
+    text-align: center;
+    align-items: center;
+}
+.footer-contract-form input{
+    display: block;
+}
+.input-text{
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 15px 0;
+    padding-left: 5px;
+}
+textarea{
+    padding-right: 40px;
+    padding-left: 5px;
+}
+.copyright{
+    text-align: center;
+    margin: auto;
+}
+.footer-btn{
+    margin: 17px 0;
+    padding: 8px 20px;
+    background-color: tomato;
+    color: white;
+    border: none;
+}
+.footer-btn:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+
+
